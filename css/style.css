@@ -1,0 +1,158 @@
+body {
+    background: red;
+}
+.container, iframe {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+aside.right, aside.left {
+    float: inherit;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+/*===========
+  Basic styles
+  ===========*/
+  html {
+    font-size: 16px;
+  }
+ body {
+    background: url("https://s19.postimg.org/4gx3o0tnn/d-animation-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Pacifico', cursive;
+    color:#fff;
+ }
+ * {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; /* IE */
+}
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+ /*--------------------
+section first
+ ----------------------*/
+ section.first img {
+    width:100%;
+    line-height: 0;
+    border-radius: 15px 15px 0 0;
+ }
+ section.first {
+  line-height: 0;
+ }
+  /*--------------------
+ container
+  -----------------------*/
+.container {
+    width: 600px;
+    margin: 100px auto;
+    /*box-shadow: 2px 2px 2px 2px #000;*/
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;   
+   -ms-user-select: none;
+    user-select: none;
+}
+
+/*-------------------------
+ sections
+---------------------------*/
+.container section:nth-child(even) {
+   background: rgba(250,125,0,.7);
+    padding: 50px;
+}
+.container section:nth-child(odd) {
+  background: rgba(250,0,0,.6);
+    padding: 50px;
+}
+.container section:first-child {
+   padding:0;
+   background: transparent;
+}
+/*section.introduction {
+    background: rgba(255,0,0,.8);
+    padding: 50px;
+}
+section.wishes {
+    background: rgba(0,0,255,.8);
+    padding: 50px;
+}
+section.wifeWishes {
+    background: gray;
+    padding: 50px;
+}
+section.invitation {
+    background: rgba(0,0,0,.7);
+    padding: 50px;
+} */
+
+/*-------------------------------
+aside styles
+-----------------------------------*/
+aside.right {
+  float: right;
+  padding: 0 0 10px 15px;
+  margin: 10px 10px 5px 15px;
+
+  }
+aside.left {
+  float: left;
+  padding: 0 15px 10px 0;
+  margin: 10px 10px 0 15px;
+
+}
+/*--------------------------------
+footer styles
+-----------------------------------*/
+footer {
+  height: 100px;
+  color: #ff0;
+  padding-top:30px;
+}
+footer a {
+  text-decoration: none;
+  color: #32CD32;
+}
+/*----------------------------------
+General styles
+-------------------------------------*/
+h1,h2 {
+  font-family: 'Yatra One', cursive;
+}
+h1 {
+    font-size: 36px;
+  margin-top: -20px;
+}
+h2 {
+    font-size: 26px;
+  margin-top: -15px;
+}
+ p {
+  margin:0;
+  text-align: center;
+  font-size: 18px;
+}
+p.mail {
+  margin-top:10px;
+}
+p.mail a {
+  text-decoration: none;
+  color:#32CD32;
+}
